@@ -8,7 +8,7 @@ import Rewards from '@/components/features/rewards'
 import { rewardList } from '@/constants/reward-list'
 
 export default function Home() {
-	const [currentReward, setCurrentReward] = useState<Reward>(rewardList[3])
+	const [currentReward, setCurrentReward] = useState<Reward>(rewardList[2])
 
 	return (
 		<div className='w-full flex flex-col space-y-2 h-5/6 p-2 rounded-xl shadow-lg bg-gradient-to-tr from-primary via-secondary  to-secondary/70'>

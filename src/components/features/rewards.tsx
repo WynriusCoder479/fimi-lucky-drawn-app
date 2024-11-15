@@ -12,7 +12,7 @@ interface RewardsProps {
 
 const Rewards: FC<RewardsProps> = ({ setCurrentReward }) => {
 	return (
-		<div className='w-full h-full flex items-center gap-2'>
+		<div className='w-full h-full flex justify-center items-center gap-2'>
 			{rewardList.map(reward => (
 				<button
 					onClick={() => setCurrentReward(reward)}

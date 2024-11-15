@@ -8,11 +8,11 @@ export const cn = (...inputs: ClassValue[]) => {
 export const parseType = (type: RewardType) => {
 	switch (type) {
 		case 'first':
-			return 'Giải nhất'
+			return 'Giải đặc biệt'
 		case 'second':
-			return 'Giải nhì'
+			return 'Giải may mắn 1'
 		case 'third':
-			return 'Giải ba'
+			return 'Giải may mắn 2'
 		case 'consolation':
 			return 'Giải khuyến khích'
 	}
